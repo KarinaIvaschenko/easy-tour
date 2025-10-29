@@ -58,3 +58,10 @@ export type StopSearchResponse = {
     status: "cancelled";
     message: string;
 };
+
+export type StatusMessage = 'success' | 'error' | 'warning' | 'info';
+
+export type SearchState = {
+    status: 'emptyState' | 'loading' | 'success' | 'error' | null;
+    error: string | null;
+};
