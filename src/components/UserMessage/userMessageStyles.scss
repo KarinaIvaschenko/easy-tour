@@ -1,0 +1,42 @@
+.user-message {
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+
+  &__text {
+    font-weight: bold;
+    margin: 0;
+  }
+
+  &--success {
+    background-color: #e8f5e9;
+    border-color: #66bb6a;
+    .user-message__text {
+      color: #2e7d32;
+    }
+  }
+
+  &--error {
+    background-color: #ffebee;
+    border-color: #ef5350;
+    .user-message__text {
+      color: #c62828;
+    }
+  }
+
+  &--warning {
+    background-color: #fff8e1;
+    border-color: #ffa726;
+    .user-message__text {
+      color: #ef6c00;
+    }
+  }
+
+  &--emptyState {
+    background-color: #e3f2fd;
+    border-color: #42a5f5;
+    .user-message__text {
+      color: #1565c0;
+    }
+  }
+}
