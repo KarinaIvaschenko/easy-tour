@@ -1,0 +1,18 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.loader__time{
+  font-size: 40px;
+}
+
+.loader__text{
+  font-weight: bold;
+}
